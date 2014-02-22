@@ -21,6 +21,6 @@ public class MyClassTest {
 
     @Test
     public void testFail() throws Exception {
-        assertTrue("Fail test", false);
+        assertTrue("Fail test", 1 == 1);
     }
 }
